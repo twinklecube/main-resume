@@ -28,6 +28,28 @@ export const initValue: InitValue = {
         {
             page: 1,
             order: 2,
+            title: 'Education',
+            list: [
+                [
+                    'Master of Business Administration',
+                    'Middlesex University, UK',
+                    '2013'
+                ],
+                [
+                    'CIMA Adv Dip MA',
+                    'Chartered Institute of Management Accountants (CIMA), UK (Advanced Diploma in Management Accounting)',
+                    '2014'
+                ],
+                [
+                    'Level 7 BTEC Advanced Professional Diploma in Management Studies',
+                    'EDEXCEL, UK',
+                    '2012'
+                ]
+            ]
+        },
+        {
+            page: 2,
+            order: 2,
             title: 'Previous Professional Experiences',
             startParagraph: ['Before moving to Germany, I was working as a Business Manager in my home country'],
             list: [
@@ -43,14 +65,9 @@ export const initValue: InitValue = {
                 ]
             ]
         },
-        // {
-        //     page: 1,
-        //     order: 1,
-        //     title: 'Education'
-        // },
         {
-            page: 1,
-            order: 3,
+            page: 2,
+            order: 1,
             title: 'Milestones',
             list: [
                 ['Selected to represent the Check24 Conference - 2025'],
@@ -58,5 +75,6 @@ export const initValue: InitValue = {
                 ['Awarded the National Price(Sri Lanka) of CMGA/CIMA - 2014']
             ]
         }
-    ]
+    ],
+
 }

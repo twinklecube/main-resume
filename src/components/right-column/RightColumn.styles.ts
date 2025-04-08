@@ -3,8 +3,8 @@ import styled from "@emotion/styled";
 export const Wrapper = styled.main`
     flex: 1;
     //background-color: pink;
-    z-index: -2;
-    padding: 0 50px 0 25px;
+    //z-index: -2;
+    padding: 50px 50px 0 25px;
 `;
 
 export const CategoryTitle = styled.div`

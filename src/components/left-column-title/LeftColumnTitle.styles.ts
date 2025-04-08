@@ -18,7 +18,6 @@ export const Title = styled.div`
     padding: 0 20px;
     font-size: 16px;
     color: ${LEFT_COLUMN_BG_COLOR};
-    z-index: 20;
 `;
 
 export const TitleFlag = styled.div`
