@@ -5,5 +5,5 @@ export const Wrapper = styled.div`
     height: 11.69in;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 `;
