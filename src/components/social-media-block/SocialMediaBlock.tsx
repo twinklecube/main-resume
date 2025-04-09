@@ -9,7 +9,7 @@ const SocialMediaBlock = ({icon, link}: Props) => {
     return (
         <SocialMediaWrapper>
             <SocialMediaImg src={icon} />
-            <SocialMediaLink href={link}>
+            <SocialMediaLink href={link} target='_blank'>
                 {link}
             </SocialMediaLink>
         </SocialMediaWrapper>

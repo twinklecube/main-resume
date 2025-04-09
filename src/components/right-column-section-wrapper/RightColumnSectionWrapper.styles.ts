@@ -37,6 +37,19 @@ export const SectionTitleRight = styled.div`
     line-break: anywhere;
 `;
 
+export const SectionTitleRightAnchor = styled.a`
+    flex: 1;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #191f22;
+    line-break: anywhere;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
 export const TextParagraph = styled.p`
     font-size: 14px;
     color: #191f22;
@@ -46,5 +59,32 @@ export const TextParagraph = styled.p`
 export const KeywordParagraph = styled.div`
     padding-left: 20px;
     font-size: 16px;
-    color: #308397;
+    //color: #308397;
+    color: #b37100;
+`;
+
+export const IconContent = styled.div`
+    padding-left: 20px;
+    display: flex;
+    gap: 15px;
+`;
+
+export const IconImg = styled.img`
+    width: 20px;
+    height: 20px;
+`;
+
+export const IconText = styled.div`
+    //flex: 1;
+`;
+
+export const IconLink = styled.a`
+    color: steelblue;
+    line-break: anywhere;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+        color: cornflowerblue;
+    }
 `;

@@ -85,15 +85,15 @@ export const initValue: InitValue = {
             textParagraphs: [
                 'From September 2021 till Present.',
                 'I\'m actively in coding. Clean, Modular, and Testable code, following best practices and code review standards.',
-                'Collaborated closely with cross-functional teams including product managers, UI/UX designers, and QA engineers.',
+                'Collaborating closely with cross-functional teams including product managers, UI/UX designers, and QA engineers.',
                 'Contributing to the full software development lifecycle, including design, development, testing, and deployment.',
-                'Worked with modern tools and frameworks (React, Node.js, TypeScript, etc.) to build user-friendly interfaces and robust backend services.'
+                'Working with modern tools and frameworks (React, Node.js, TypeScript, etc.) to build user-friendly interfaces and robust backend services.'
             ],
             keywordParagraphs: [
                 'Javascript, Typescript, Webpack, Rollup, Babel, Vite',
-                'React and related libraries - Jest, React Testing Library, React Query, Redux, RTK Query, etc.',
-                'Docker, Kubernetes, Jira, Jenkins, BitBucket, etc.'
-            ]
+                'React and related libraries - Jest, React Testing Library, React Query, Redux, RTK Query, Context API, React Query, etc.',
+                'Docker, Kubernetes, Jira, Jenkins, BitBucket, Confluence, Sentry, Graylog etc.'
+            ],
         },
         {
             page: 1,
@@ -102,10 +102,24 @@ export const initValue: InitValue = {
             titleAnchor: 'https://www.twinklecube.com/',
             textParagraphs: [
                 'Twinklecube is a platform to play SUDOKU puzzle game online on browser without having to be registered.',
-                'This project is consisted of three microservice and three frontend projects including a custom made React Typescript UI Library. Entry point is a NGINX API Gateway, hosted in AWS.'
+                'This project is consisted of five services and three frontend apps and a custom made React Typescript UI Library.',
+                'Entry point is a NGINX Server/API Gateway, hosted in a EC2 instance in AWS. Rest of the services are hosted in Contabo.',
+                'Frontend apps are served through Netlify. The UI Library is a GitHub repo installed in projects.'
             ],
             keywordParagraphs: [
                 'JavaScript, Typescript, Node, React, Express, MongoDB, Webpack, Babel, Styled Components'
+            ],
+            iconContents: [
+                {
+                    text: 'Architecture diagram of this project: ',
+                    link: 'https://drive.google.com/file/d/1lN8FVH_2swZN6HMPsV19c2mIpQFsRCAX/view?usp=sharing',
+                    type: 'architecture-diagram'
+                },
+                {
+                    text: 'UI-library: ',
+                    link: 'https://github.com/twinklecube/ui-library',
+                    type: 'github-repo'
+                }
             ]
         },
         {
@@ -117,10 +131,20 @@ export const initValue: InitValue = {
                 'twinklecubeUI is a simple but feature rich, developer friendly and complete React and TypeScript UI Library with adequate documentation.',
                 'This library is configured to work with almost all mainstream styling including css, sass, less, styled components and emotion',
                 'Development server: Webpack, Production build: Rollup',
-                'Try it out: npx @twinklecube/create-ui-library'
+                'Try it out: \'npx @twinklecube/create-ui-library\''
             ],
             keywordParagraphs: [
                 'Javascript, Typescript, React, Webpack, Rollup, Babel'
+            ],
+            iconContents: [
+                {
+                    type: 'npm-repo',
+                    link: 'https://www.npmjs.com/package/@twinklecube/create-ui-library'
+                },
+                {
+                    type: 'github-repo',
+                    link: 'https://github.com/twinklecube/create-ui-library'
+                }
             ]
         },
         {
@@ -129,11 +153,22 @@ export const initValue: InitValue = {
             category: 'project',
             titleAnchor: 'https://www.npmjs.com/package/@twinklecube/create-react-app',
             textParagraphs: [
-                'This is a React18/Typescript starter project',
-                'Try it out: npx @twinklecube/create-react-app my-react-app'
+                'This is a React/Typescript bootstrap project',
+                'Non-opinionated, only the bare minimum setup',
+                'Try it out: \'npx @twinklecube/create-react-app my-react-app\''
             ],
             keywordParagraphs: [
-                'Javascript, Typescript, React, Webpack, Rollup, Babel'
+                'React, Javascript, Typescript , Webpack, Babel'
+            ],
+            iconContents: [
+                {
+                    type: 'npm-repo',
+                    link: 'https://www.npmjs.com/package/@twinklecube/create-react-app'
+                },
+                {
+                    type: 'github-repo',
+                    link: 'https://github.com/twinklecube/create-react-app'
+                }
             ]
         }
 

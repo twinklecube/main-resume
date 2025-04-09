@@ -11,6 +11,14 @@ export type LeftColumnSection = {
 
 export type RightColumnSectionCategory = 'project' | 'experience';
 
+export type IconContentType = 'architecture-diagram' | 'npm-repo' | 'github-repo';
+
+export type IconContent = {
+    text?: string;
+    link?: string;
+    type: IconContentType
+};
+
 export type RightColumnSection = {
     page: number;
     order: number;
@@ -18,7 +26,8 @@ export type RightColumnSection = {
     titleText?: string,
     titleAnchor?: string,
     textParagraphs: Array<string>,
-    keywordParagraphs?: Array<string>
+    keywordParagraphs?: Array<string>,
+    iconContents?: Array<IconContent>
 }
 
 export type InitValue = {

@@ -17,4 +17,8 @@ export const SocialMediaLink = styled.a`
     text-decoration: none;
     color: white;
     line-break: anywhere;
+    
+    &:hover {
+        text-decoration: underline;
+    }
 `;
