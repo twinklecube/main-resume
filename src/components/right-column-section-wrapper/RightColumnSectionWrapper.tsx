@@ -1,6 +1,7 @@
 import {
-    IconImg, IconLink,
-    IconContent, IconText,
+    IconImg,
+    IconLink,
+    IconContent,
     KeywordParagraph,
     SectionTitle,
     SectionTitleLeft,
@@ -51,10 +52,10 @@ const RightColumnSectionWrapper = ({title, page, category}: Props) => {
 
                         <IconContent>
                             <IconImg src={mapIconContentTypeToIcon[iconContent.type]}/>
-                            <IconText>
+                            <div>
                                 <span>{iconContent.text}</span>
                                 <IconLink href={iconContent.link} target='_blank'>{iconContent.link}</IconLink>
-                            </IconText>
+                            </div>
                         </IconContent>
 
                     ))

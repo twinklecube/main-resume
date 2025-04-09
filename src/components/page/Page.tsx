@@ -5,7 +5,7 @@ type Props = {} & PropsWithChildren;
 
 const Page = ({children}: Props) => {
     return (
-        <Wrapper>
+        <Wrapper >
             {children}
         </Wrapper>
     );

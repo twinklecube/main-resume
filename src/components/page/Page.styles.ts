@@ -6,4 +6,5 @@ export const Wrapper = styled.div`
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    box-shadow: 1px 1px 3px #99999980;
 `;

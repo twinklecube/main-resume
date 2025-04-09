@@ -11,7 +11,7 @@ const PageTwo = () => {
                 <LeftColumnSectionWrapper page={2} />
             </LeftColumn>
             <RightColumn>
-                <RightColumnSectionWrapper title='PROJECTS cond...' page={2} category='project' />
+                <RightColumnSectionWrapper page={2} category='project' />
             </RightColumn>
         </Page>
     );

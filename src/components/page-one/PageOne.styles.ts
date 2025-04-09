@@ -20,21 +20,11 @@ export const ProfileImage = styled.img`
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: url("/malin-profile-pic.jpg");
-    background-position: -12px -30px;
+    background: url("/malin-profile-pic.jpg") -12px -30px;
     background-size: cover;
 `;
 
 export const Brief = styled.div`
-    //flex: 1;
-    //display: flex;
-    //flex-direction: column;
-    gap: 5px;
-    font-size: 14px;
-    line-height: 18px;
-    
-    //p {
-    //    margin: 0;
-    //}
-    //margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
 `;

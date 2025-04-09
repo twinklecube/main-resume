@@ -5,7 +5,7 @@ export const Wrapper = styled.main`
     padding: 50px 50px 0 25px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 `;
 
 

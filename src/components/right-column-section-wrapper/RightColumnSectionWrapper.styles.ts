@@ -59,7 +59,6 @@ export const TextParagraph = styled.p`
 export const KeywordParagraph = styled.div`
     padding-left: 20px;
     font-size: 16px;
-    //color: #308397;
     color: #b37100;
 `;
 
@@ -72,10 +71,6 @@ export const IconContent = styled.div`
 export const IconImg = styled.img`
     width: 20px;
     height: 20px;
-`;
-
-export const IconText = styled.div`
-    //flex: 1;
 `;
 
 export const IconLink = styled.a`

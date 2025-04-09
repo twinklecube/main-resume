@@ -23,15 +23,10 @@ export const Li = styled.li`
     border-left: solid 2px #ffdd00;
     padding-left: 10px;
     line-height: 18px;
-    //display: flex;
-    //flex-direction: column;
-    //gap: 3px;
 `;
 
 export const P = styled.p`
     font-size: 14px;
     color: white;
     padding-right: 25px;
-    //margin: 0;
-    //margin: 10px 0;
 `;

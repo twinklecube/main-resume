@@ -126,7 +126,7 @@ export const initValue: InitValue = {
             page: 2,
             order: 1,
             category: 'project',
-            titleAnchor: 'https://www.npmjs.com/package/@twinklecube/create-ui-library',
+            titleText: 'create-ui-library, npm package',
             textParagraphs: [
                 'twinklecubeUI is a simple but feature rich, developer friendly and complete React and TypeScript UI Library with adequate documentation.',
                 'This library is configured to work with almost all mainstream styling including css, sass, less, styled components and emotion',
@@ -151,7 +151,7 @@ export const initValue: InitValue = {
             page: 2,
             order: 2,
             category: 'project',
-            titleAnchor: 'https://www.npmjs.com/package/@twinklecube/create-react-app',
+            titleText: 'create-react-app, npm package',
             textParagraphs: [
                 'This is a React/Typescript bootstrap project',
                 'Non-opinionated, only the bare minimum setup',
