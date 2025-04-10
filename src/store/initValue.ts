@@ -22,6 +22,9 @@ export const initValue: InitValue = {
                 ],
                 [
                     'Born in Galle, Sri Lanka on 29.11.1980'
+                ],
+                [
+                    'Ready to move within Germany'
                 ]
             ]
         },
@@ -31,19 +34,17 @@ export const initValue: InitValue = {
             title: 'Education',
             list: [
                 [
-                    'Master of Business Administration',
+                    'Master of Business Administration - 2013',
                     'Middlesex University, UK',
-                    '2013'
+                    'Endorsed by Kultusministerkonferenz',
                 ],
                 [
-                    'CIMA Adv Dip MA',
+                    'CIMA Adv Dip MA - 2014',
                     'Chartered Institute of Management Accountants (CIMA), UK (Advanced Diploma in Management Accounting)',
-                    '2014'
                 ],
                 [
-                    'Level 7 BTEC Advanced Professional Diploma in Management Studies',
+                    'Level 7 BTEC Advanced Professional Diploma in Management Studies - 2012',
                     'EDEXCEL, UK',
-                    '2012'
                 ]
             ]
         },
@@ -91,7 +92,7 @@ export const initValue: InitValue = {
             ],
             keywordParagraphs: [
                 'Javascript, Typescript, Webpack, Rollup, Babel, Vite',
-                'React and related libraries - Jest, React Testing Library, React Query, Redux, RTK Query, Context API, React Query, etc.',
+                'React and related libraries - Jest, React Testing Library, React Query, Redux, RTK Query, Context API, etc.',
                 'Docker, Kubernetes, Jira, Jenkins, BitBucket, Confluence, Sentry, Graylog etc.'
             ],
         },
