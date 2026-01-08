@@ -36,7 +36,7 @@ const PageOne = () => {
             <RightColumn>
                 <Brief>
                     <p>
-                        <strong>Passionate Frontend Developer with a solid understanding of backend technologies.<br /></strong> contributing to cutting-edge projects at
+                        <strong>Passionate Fullstack Software Developer, Frontend-Driven and AI-Curious.<br /></strong> Contributing to cutting-edge projects at
                         a well-known tech company <strong>Since September 2021</strong>.
                     </p>
                 </Brief>
