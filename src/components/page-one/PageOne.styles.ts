@@ -20,7 +20,9 @@ export const ProfileImage = styled.img`
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: url("/malin-profile-pic.jpg") 5px -20px;
+    background: url("/malin-profile-pic.png") 5px -20px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 `;
 
